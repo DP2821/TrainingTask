@@ -5,12 +5,15 @@
   font-family: "poppins";
   color: white;
 }
+.header-main{
+  padding-top: 42px;
+}
 .nav-and-intropage {
   background-color: #333647;
 }
 .trans-navbar {
   background-color: #333647;
-  background: transparent;
+  /* background: transparent; */
 }
 .nav-links {
   background-color: #333647;
@@ -21,6 +24,9 @@ ul li a:hover {
 }
 .navbar-collapse.navbar-right.nav-links ul li {
   background-color: #f87c58;
+}
+.logo{
+  height: 71px;
 }
 .intro-left h3 {
   font-size: 22px;
@@ -111,6 +117,9 @@ ul li a:hover {
 
 .temp {
   /* border: 5px solid red; */
-  margin: 0px;
   background-color: #333647;
+}
+
+.red-border{
+  border: 5px solid red;
 }
