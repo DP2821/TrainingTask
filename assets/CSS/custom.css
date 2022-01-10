@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #333647; */
+    font-family: 'poppins';
+    color: white;
+}
+.nav-and-intropage{
+    background-color: #333647;
+    
+}
+.trans-navbar{
+    background-color: #333647;
+    background: transparent;
+}
+.nav-new{
+    
+}
+.nav-links{
+    background-color: #333647;
+    border : 5px red;
+}
+
+ul li a:hover{
+   
+    background-color: #F87C58;
+}
+.navbar-collapse.navbar-right.nav-links  ul li {
+   background-color: #F87C58;
+}
+.intro-left h3{
+    font-size: 22px;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #F87C58;
+    border-radius: 10px;
+}
+.intro-left h1{
+    margin-top: 40px;
+}
+.intro-left p{
+    margin-top: 31px;
+}
+.btn-default.buttoncv{
+    background-color: #F87C58;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-default.buttoncv:hover{}
+.btn-default.btnwork{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 15px 30px 15px 30px;
+}
+.btn-default.btnwork:hover{
+    background-color: #F87C58;
+    color: white;
+}
+.imglady{
+    border-radius: 50%;
+    border: 2px solid white;
+    border-style: dashed;
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-color: #282A3A;
+}
+.intro-left{
+    margin-top: 100px;
+}
+.aboutme{
+    background-color: #282A3A;
+    
+}
+.shutterimg{
+    width: 500px;
+    height: 500px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    filter: grayscale(100%);
+}
+.skills{
+    margin-top: 8%;
+}
+.skills p{
+    margin-top: 50px;
+}
+.progressbar-small{
+    width: 100%;
+    height: 0px;
+    color: #F87C58;
+}
+.services{
+    margin-top: 0px;
+    background-color: #333647;
+    
+}
+.services h3{
+    text-align: center;
+}
+.btn-default.btnforservice{
+    display: inline-block;
+    background-color: #F87C58;
+    padding: 21px 102px 16px 25px;
+}
+
+.temp{
+    border: 5px solid red
+}
