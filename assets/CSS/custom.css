@@ -103,9 +103,16 @@ ul li a:hover {
   text-align: center;
 }
 .btn-default.btnforservice {
-  display: inline-block;
+  padding-top: 20px;
+  padding-bottom:20px ;
   background-color: #f87c58;
-  padding: 21px 102px 16px 25px;
+  
+  
+}
+.imgsmall{
+    background-color: white;
+    border-radius: 40%;
+    margin-left: 20px;
 }
 
 
