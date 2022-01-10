@@ -108,11 +108,6 @@ ul li a:hover{
 .services h3{
     text-align: center;
 }
-.btn-default.btnforservice{
-    display: inline-block;
-    background-color: #F87C58;
-    padding: 21px 102px 16px 25px;
-}
 
 .temp{
     border: 5px solid red
