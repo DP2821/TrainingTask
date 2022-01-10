@@ -90,6 +90,7 @@ ul li a:hover {
   color: #f87c58;
 }
 .services {
+<<<<<<< HEAD
     margin-top: 0px;
     background-color: #333647;
   }
@@ -110,6 +111,28 @@ ul li a:hover {
       margin-left: 20px;
   }
   
+=======
+  margin-top: 0px;
+  background-color: #333647;
+}
+
+.services h3 {
+  text-align: center;
+}
+.btn-default.btnforservice {
+  padding-top: 20px;
+  padding-bottom:20px ;
+  background-color: #f87c58;
+  
+  
+}
+.imgsmall{
+    background-color: white;
+    border-radius: 40%;
+    margin-left: 20px;
+}
+
+>>>>>>> nr-master
 
 .temp {
   /* border: 5px solid red; */
