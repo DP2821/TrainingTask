@@ -131,10 +131,10 @@ h2 {
   margin-bottom: 20px;
 }
 .imgsmall-active {
-  background-color: white;
-  border-radius: 50%;
-  margin-left: 20px;
-  padding: 20px 20px 20px 20px;
+  padding-top: 18px;
+}
+.imgsmall {
+  padding-top: 18px;
 }
 .arrow-active {
   float: right;
@@ -145,19 +145,13 @@ h2 {
   margin-left: 20px;
   font-size: 16px;
 }
-
 .btn-default.btnforservice {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #11121c;
   margin-bottom: 20px;
 }
-.imgsmall {
-  background-color: #333647;
-  border-radius: 50%;
-  margin-left: 20px;
-  padding: 24px 20px 24px 20px;
-}
+
 .arrow-white {
   float: right;
   padding-right: 10px;
@@ -336,6 +330,18 @@ input, textarea{
   text-align: center;
 }
 
+.our-service-img-bg{
+  display: inline-block;
+  background-color: #333647;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 20px;
+  text-align: center;
+}
+.our-service-img-bg-active{
+  background-color: white;
+}
 .red-b{
   border: 5px solid red;
 }
