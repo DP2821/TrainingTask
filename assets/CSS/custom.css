@@ -91,8 +91,8 @@ h2 {
   border-radius: 50%;
   border: 10px solid #333647;
   /* border-style: dashed; */
-  height: 500px;
-  width: 500px;
+  height: auto;
+  width: 100%;
   float: right;
   /* margin-top: 20%; */
   /* margin-bottom: 20%; */
@@ -100,7 +100,7 @@ h2 {
 }
 .imglady-border{
   display: inline-block;
-  height: 505px;
+  
   border: 2px solid white;
   border-radius: 50%;
   border-style: dashed;
@@ -307,7 +307,7 @@ h2 {
       font-size: xx-large;
 }
 .arrow{
-  filter: invert(74%) sepia(45%) saturate(4676%) hue-rotate(323deg) brightness(100%) contrast(95%);
+  filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
 }
 
 /* contact page */
