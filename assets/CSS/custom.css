@@ -101,7 +101,7 @@ h2 {
 .imglady-border{
   display: inline-block;
   
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 50%;
   border-style: dashed;
   margin-top: 20%;
@@ -260,7 +260,7 @@ h2 {
   margin-top: 20%;
   margin-bottom: 20%;
   display: inline-block;
-  border: 2px dashed white;
+  border: 3px dashed white;
   border-radius: 41px;
 }
 .worksummarytext{
