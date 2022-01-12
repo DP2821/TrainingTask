@@ -101,7 +101,12 @@ h2 {
 }
 .imglady-border{
   display: inline-block;
+<<<<<<< HEAD
   border: 2px solid white;
+=======
+  
+  border: 3px solid white;
+>>>>>>> bb8696df4423f49d43af25f4277e550f01843b32
   border-radius: 50%;
   border-style: dashed;
   margin-top: 20%;
@@ -204,7 +209,11 @@ h2 {
   
 }
 .btn-default.btnforservice:hover .our-service-img-bg{
+<<<<<<< HEAD
   background-color: rgb(255, 255, 255);
+=======
+  background-color: #ffffff;
+>>>>>>> bb8696df4423f49d43af25f4277e550f01843b32
 }
 .btn-default.btnforservice:hover .imgforservice {
     filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
@@ -247,14 +256,23 @@ h2 {
   background-color: #282a3a;
 }
 .smilinggirl {
-  margin-top: 20%;
+  /* margin-top: 20%; */
+  /* width: 70%; */
+  /* height: auto; */
+  width: 100%;
+  border: 10px solid #282a3a;
+  border-radius: 41px;
+  /* border-style: dashed; */
+  background-color: #333647;
+  /* margin-bottom: 20%; */
+}
+.smilinggirl-border{
   width: 70%;
-  height: auto;
-  border: 2px solid white;
-  border-radius: 20px;
-  border-style: dashed;
-  background-color: #282a3a;
+  margin-top: 20%;
   margin-bottom: 20%;
+  display: inline-block;
+  border: 3px dashed white;
+  border-radius: 41px;
 }
 .worksummarytext{
       margin-top: 10%;
