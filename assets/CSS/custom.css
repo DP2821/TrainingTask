@@ -248,15 +248,10 @@ h2 {
   background-color: #282a3a;
 }
 .smilinggirl {
-  /* margin-top: 20%; */
-  /* width: 70%; */
-  /* height: auto; */
   width: 100%;
   border: 10px solid #282a3a;
   border-radius: 41px;
-  /* border-style: dashed; */
   background-color: #333647;
-  /* margin-bottom: 20%; */
 }
 .smilinggirl-border{
   width: 70%;
@@ -340,7 +335,7 @@ h2 {
       color: #f87c58;
       font-size: xx-large;
 }
-.arrow{
+.arrow-of-blog{
   filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
 }
 
