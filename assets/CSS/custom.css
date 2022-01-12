@@ -127,7 +127,7 @@ h2 {
   margin-left: -20px;
   border-top: 8px dashed white;
   border-radius: 10px;
-  color: white;
+  color: hsl(0, 0%, 100%);
   height: 150px;
   width: 150px;
   background-color: #11121c;
@@ -198,6 +198,10 @@ h2 {
 }
 .btn-default.btnforservice:hover {
   background-color: #f87c58;
+  
+}
+.btn-default.btnforservice:hover .our-service-img-bg{
+  background-color: rgb(141, 141, 141);
 }
 .btn-default.btnforservice:hover .imgforservice {
     filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
@@ -205,9 +209,12 @@ h2 {
 .btn-default.btnforservice:hover{
   padding-top: 15px;
   padding-bottom: 15px;
+  background-color: #f87c58;
   margin-bottom: 20px;
 }
-
+.btn-default.btnforservice:hover .arrow-white{
+  filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(313deg) brightness(1000%) contrast(107%);
+}
 
 .nav-bg {
   background-color: #333647;
