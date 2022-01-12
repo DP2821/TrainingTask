@@ -84,14 +84,23 @@ h2 {
 }
 .imglady {
   border-radius: 50%;
-  border: 2px solid white;
-  border-style: dashed;
+  border: 10px solid #333647;
+  /* border-style: dashed; */
   height: 500px;
   width: 500px;
   float: right;
+  /* margin-top: 20%; */
+  /* margin-bottom: 20%; */
+  background-color: #282a3a;
+}
+.imglady-border{
+  display: inline-block;
+  height: 505px;
+  border: 2px solid white;
+  border-radius: 50%;
+  border-style: dashed;
   margin-top: 20%;
   margin-bottom: 20%;
-  background-color: #282a3a;
 }
 
 .aboutme {
@@ -352,6 +361,12 @@ input, textarea{
 }
 .our-service-img-bg-active{
   background-color: white;
+}
+.years-of-experiance{
+  color: white;
+  height: 150px;
+  width: 150px;
+  background-color: #11121c;
 }
 .red-b{
   border: 5px solid red;
