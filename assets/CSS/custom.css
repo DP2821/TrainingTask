@@ -89,17 +89,10 @@ h2 {
 }
 .imglady {
   border-radius: 50%;
-<<<<<<< HEAD
-  border: 2px solid white;
-  border-style: dashed;
-  height: auto;
-  width: 100%;
-=======
   border: 10px solid #333647;
   /* border-style: dashed; */
   height: 500px;
   width: 500px;
->>>>>>> 2711b068277c6170a6e07dda554e563b351af137
   float: right;
   /* margin-top: 20%; */
   /* margin-bottom: 20%; */
