@@ -166,10 +166,10 @@ h2 {
   background-color: #f87c58;
   margin-bottom: 20px;
 }
-.imgsmall-active {
+.imgforservice-active {
   padding-top: 18px;
 }
-.imgsmall {
+.imgforservice   {
   padding-top: 18px;
 }
 .arrow-active {
@@ -179,6 +179,7 @@ h2 {
   padding-top: 20px;
 }
 .service-name {
+  display: inline;
   margin-left: 20px;
   font-size: 16px;
 }
@@ -190,6 +191,7 @@ h2 {
 }
 
 .arrow-white {
+  filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
   float: right;
   padding-right: 10px;
   padding-top: 20px;
@@ -197,6 +199,16 @@ h2 {
 .btn-default.btnforservice:hover {
   background-color: #f87c58;
 }
+.btn-default.btnforservice:hover .imgforservice {
+    filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
+}
+.btn-default.btnforservice:hover{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
 
 .nav-bg {
   background-color: #333647;
