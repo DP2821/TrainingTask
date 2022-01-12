@@ -138,8 +138,9 @@ h2 {
 }
 .arrow-active {
   float: right;
+  font-size: xx-large;
   padding-right: 10px;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 .service-name {
   margin-left: 20px;
@@ -158,10 +159,12 @@ h2 {
   margin-left: 20px;
   padding: 24px 20px 24px 20px;
 }
-.arrow-white {
+.arrow-orange {
+  color: #f87c58;
+  font-size: xx-large;
   float: right;
   padding-right: 10px;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 .btn-default.btnforservice:hover {
   background-color: #f87c58;
