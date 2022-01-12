@@ -25,7 +25,7 @@ h2 {
   color: #f87c58;
 }
 .header-main {
-  padding-top: 42px;
+  padding-top: 30px;
 }
 .nav-and-intropage {
   background-color: #333647;
@@ -112,10 +112,17 @@ h2 {
 .services {
   background-color: #333647;
 }
-
+.services-text{
+    margin-top: 70px;
+}
 .services h3{
   text-align: center;
+  margin-bottom: 50px;
 }
+.servicebtns{
+  margin-top: 50px;
+}
+
 .btn-default.btnforservice-active {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -175,25 +182,32 @@ h2 {
   margin-top: 30px;
   margin-bottom: 80px;
 }
+.view-all:hover{
+  color: black;
+  background-color: white;
+}
 .worksummary {
   background-color: #282a3a;
 }
 .smilinggirl {
   margin-top: 20%;
   width: 70%;
-  height: 400px;
+  height: auto;
   border: 2px solid white;
   border-radius: 20px;
   border-style: dashed;
   background-color: #282a3a;
   margin-bottom: 20%;
 }
-.workright {
+.worksummarytext{
+      margin-top: 10%;
+}
+.worksummarytext p{
   margin-top: 5%;
 }
 .btn-default.summarybtn {
   display: inline-block;
-  margin: 0 auto;
+  margin-top: 10px;
   background-color: #11121c;
   color: rgb(255, 255, 255);
   width: 100%;
@@ -205,6 +219,7 @@ h2 {
 }
 .btn-default.btn-active {
   background-color: #f87c58;
+  margin-top: 10px;
   color: white;
   display: inline-block;
   width: 100%;
@@ -214,6 +229,9 @@ h2 {
 }
 .portfolio {
   background-color: #333647;
+}
+.portfolio h3{
+  margin-top: 60px;
 }
 .portimage {
   width: 350px;
@@ -244,6 +262,8 @@ h2 {
   background-color: #11121c;
   border-radius: 4px;
 }
+
+/* contact page */
 .contact {
   background-color: #11121c;
 }
@@ -253,20 +273,19 @@ h2 {
   border-radius: 50%;
   margin-top: 5px;
 }
-.contact-detail {
-  /* display: inline-block; */
-}
 .contact-form input {
   background-color: #333647;
   border: none;
+  width: 100%;
   height: 60px;
-  width: 360px;
+  /* display: inline-block; */
 }
 .dropmenu button {
   background-color: #333647;
   border: none;
   height: 60px;
   width: 360px;
+  border-radius: 4px;
 }
 .contact-message {
   margin-top: 20px;
@@ -282,4 +301,31 @@ li{
 
 input, textarea{
   border-radius: 4px;
+  padding-left: 10px;
+}
+.dropdown-menu li{
+  color: black;
+  text-align: center;
+}
+.submit{
+
+    display: block;
+    background-color: #f87c58;
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.foot{
+  background-color: #11121c;
+}
+.copyrighttext  
+{
+  background-color: #11121c;
+  color: #282a3a;
+  text-align: center;
 }
