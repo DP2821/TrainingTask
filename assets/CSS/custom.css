@@ -12,29 +12,30 @@ h1,
 h2 {
   font-family: "raleway";
 }
-.mt-5{
+.mt-5 {
   margin-top: 50px;
 }
-.mt-3{
+.mt-3 {
   margin-top: 30px;
 }
-.mt-7{
+.mt-7 {
   margin-top: 70px;
 }
-.mt-2{
+.mt-2 {
   margin-top: 20px;
 }
-.mb-3{
+.mb-3 {
   margin-bottom: 30px;
 }
-.mb-5{
+.mb-5 {
   margin-bottom: 50px;
 }
 .text-white {
   color: white;
 }
+
 /* nav-bar */
-.nav-item:hover{
+.nav-item:hover {
   color: #f87c58;
 }
 .active-tab {
@@ -99,15 +100,16 @@ h2 {
   float: right;
   background-color: #282a3a;
 }
-.imglady-border{
+.imglady-border {
   display: inline-block;
-  
+
   border: 3px solid white;
   border-radius: 50%;
   border-style: dashed;
   margin-top: 20%;
   margin-bottom: 20%;
 }
+
 /* about me  */
 .aboutme {
   background-color: #282a3a;
@@ -120,7 +122,7 @@ h2 {
   margin-bottom: 20%;
   filter: grayscale(100%);
 }
-.years-of-experiance{
+.years-of-experiance {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -133,7 +135,8 @@ h2 {
   width: 150px;
   background-color: #11121c;
 }
-.years-of-experiance h2, .years-of-experiance h4{
+.years-of-experiance h2,
+.years-of-experiance h4 {
   padding-left: 20px;
 }
 .skills {
@@ -146,23 +149,20 @@ h2 {
 .progress.progressbar-small {
   width: 100%;
   height: 10px;
-  
 }
 
-
 /* services */
-
 .services {
   background-color: #333647;
 }
-.services-text{
-    margin-top: 70px;
+.services-text {
+  margin-top: 70px;
 }
-.services h3{
+.services h3 {
   text-align: center;
   margin-bottom: 50px;
 }
-.servicebtns{
+.servicebtns {
   margin-top: 50px;
 }
 .btn-default.btnforservice-active {
@@ -174,7 +174,7 @@ h2 {
 .imgforservice-active {
   padding-top: 18px;
 }
-.imgforservice   {
+.imgforservice {
   padding-top: 18px;
 }
 .arrow-active {
@@ -195,29 +195,31 @@ h2 {
   margin-bottom: 20px;
 }
 .arrow-white {
-  filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
+  filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg)
+    brightness(97%) contrast(86%);
   float: right;
   padding-right: 10px;
   padding-top: 20px;
 }
 .btn-default.btnforservice:hover {
   background-color: #f87c58;
-  
 }
-.btn-default.btnforservice:hover .our-service-img-bg{
+.btn-default.btnforservice:hover .our-service-img-bg {
   background-color: #ffffff;
 }
 .btn-default.btnforservice:hover .imgforservice {
-    filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
+  filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg)
+    brightness(97%) contrast(86%);
 }
-.btn-default.btnforservice:hover{
+.btn-default.btnforservice:hover {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #f87c58;
   margin-bottom: 20px;
 }
-.btn-default.btnforservice:hover .arrow-white{
-  filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(313deg) brightness(1000%) contrast(107%);
+.btn-default.btnforservice:hover .arrow-white {
+  filter: invert(92%) sepia(100%) saturate(0%) hue-rotate(313deg)
+    brightness(1000%) contrast(107%);
 }
 
 .view-all {
@@ -233,15 +235,16 @@ h2 {
   margin-top: 30px;
   margin-bottom: 80px;
 }
-.view-all:hover{
+.view-all:hover {
   color: black;
   background-color: white;
 }
-.hire-me{
+.hire-me {
   margin-top: 0px;
   float: left;
   margin-bottom: 0px;
 }
+
 /* more reason to choose me */
 
 .worksummary {
@@ -253,7 +256,7 @@ h2 {
   border-radius: 41px;
   background-color: #333647;
 }
-.smilinggirl-border{
+.smilinggirl-border {
   width: 70%;
   margin-top: 20%;
   margin-bottom: 20%;
@@ -261,10 +264,10 @@ h2 {
   border: 3px dashed white;
   border-radius: 41px;
 }
-.worksummarytext{
-      margin-top: 10%;
+.worksummarytext {
+  margin-top: 10%;
 }
-.worksummarytext p{
+.worksummarytext p {
   margin-top: 5%;
 }
 .btn-default.summarybtn {
@@ -279,7 +282,7 @@ h2 {
   border-style: dashed;
   border-radius: 10px;
 }
-.btn-default.summarybtn:hover{
+.btn-default.summarybtn:hover {
   color: white;
   background-color: #f87c58;
 }
@@ -293,12 +296,13 @@ h2 {
   padding-top: 10px;
   border-radius: 10px;
 }
+
 /* portfolio */
 
 .portfolio {
   background-color: #333647;
 }
-.portfolio h3{
+.portfolio h3 {
   margin-top: 60px;
 }
 .portimage {
@@ -306,6 +310,7 @@ h2 {
   height: auto;
   filter: grayscale(100%);
 }
+
 /* testimoial */
 .testimonial {
   background-color: #282a3a;
@@ -320,6 +325,7 @@ h2 {
   margin-left: 50%;
   transform: translate(-50%);
 }
+
 /* blog page */
 .blogpage {
   background-color: #333647;
@@ -331,12 +337,13 @@ h2 {
   background-color: #11121c;
   border-radius: 4px;
 }
-.arrow-icon{
-      color: #f87c58;
-      font-size: xx-large;
+.arrow-icon {
+  color: #f87c58;
+  font-size: xx-large;
 }
-.arrow-of-blog{
-  filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
+.arrow-of-blog {
+  filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg)
+    brightness(97%) contrast(86%);
 }
 
 /* contact page */
@@ -354,8 +361,9 @@ h2 {
   border: none;
   width: 100%;
   height: 60px;
-  /* display: inline-block; */
 }
+
+/* display: inline-block; */
 .dropmenu button {
   background-color: #333647;
   border: none;
@@ -368,49 +376,49 @@ h2 {
   width: 750px;
   background-color: #282a3a;
 }
-ul{
+ul {
   list-style: none;
 }
-li{
+li {
   margin-top: 30px;
 }
 
-input, textarea{
+input,
+textarea {
   border-radius: 4px;
   padding-left: 10px;
 }
-.dropdown-menu li{
+.dropdown-menu li {
   color: black;
   text-align: center;
 }
-.submit{
-    display: block;
-    background-color: #f87c58;
-    color: white;
-    font-size: 16px;
-    padding: 15px 30px 15px 30px;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 80px;
+.submit {
+  display: block;
+  background-color: #f87c58;
+  color: white;
+  font-size: 16px;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
-.submit:hover{
+.submit:hover {
   background-color: white;
   color: black;
 }
-.foot{
+.foot {
   background-color: #11121c;
 }
-.copyrighttext  
-{
+.copyrighttext {
   background-color: #11121c;
   color: #282a3a;
   text-align: center;
   padding-bottom: 10px;
 }
 
-.our-service-img-bg{
+.our-service-img-bg {
   display: inline-block;
   background-color: #333647;
   height: 70px;
@@ -419,15 +427,17 @@ input, textarea{
   margin-left: 20px;
   text-align: center;
 }
-.our-service-img-bg-active{
+.our-service-img-bg-active {
   background-color: white;
 }
-
-
-.btnforservice .service-name, .btnforservice .arrow-white, .btnforservice-active .service-name, .btnforservice-active .arrow-active{
+.btnforservice .service-name,
+.btnforservice .arrow-white,
+.btnforservice-active .service-name,
+.btnforservice-active .arrow-active {
   margin-top: 10px;
 }
 
-.btnforservice span, .btnforservice-active span{
+.btnforservice span,
+.btnforservice-active span {
   padding-top: 20px;
 }
