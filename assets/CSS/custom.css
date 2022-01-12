@@ -198,6 +198,10 @@ h2 {
 }
 .btn-default.btnforservice:hover {
   background-color: #f87c58;
+  
+}
+.btn-default.btnforservice:hover .our-service-img-bg{
+  background-color: #fff;
 }
 .btn-default.btnforservice:hover .imgforservice {
     filter: invert(61%) sepia(59%) saturate(576%) hue-rotate(343deg) brightness(97%) contrast(86%);
@@ -205,7 +209,7 @@ h2 {
 .btn-default.btnforservice:hover{
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #f87c58;
   margin-bottom: 20px;
 }
 
